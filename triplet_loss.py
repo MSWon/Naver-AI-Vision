@@ -16,8 +16,6 @@ from tensorflow.python.ops import array_ops
 from tensorflow.python.ops import math_ops
 
 
-
-
 def _pairwise_distances(embeddings, squared=False):
     """Compute the 2D matrix of distances between all the embeddings.
 
